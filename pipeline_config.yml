@@ -1,11 +1,13 @@
 #Project Setup
 general:
   productiveBranch: 'master'
+  jenkinsKubernetes:
+    jnlpAgent: 'docker.wdf.sap.corp:50001/sap-production/jnlp-alpine:3.16.1-sap-01'
 
 #Steps Specific Configuration
 steps:
   mavenExecute:
-#    dockerImage: 'maven:3.5.0-jdk-8'
+#    dockerImage: 'maven:3.6.0-jdk-8'
     projectSettingsFile : ''
 
   cloudFoundryDeploy:

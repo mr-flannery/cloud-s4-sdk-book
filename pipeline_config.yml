@@ -38,6 +38,6 @@ stages:
       - org: 'd069022'
         space: 'jwt-shizzle'
         apiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-        appName: 'address-manager'
+        appName: 'address-manager-d069022'
         manifest: 'manifest.yml'
         credentialsId: 'CF_DEPLOY'
